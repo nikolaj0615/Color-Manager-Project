@@ -20,8 +20,17 @@ cd color-manager
 ```sh
 cd backend
 npm install
-npm start
+npm run dev
+
+
+
 ```
+### 📌 2.1 **Create .env:**
+
+Create .env file inside backend directory with this code line:
+
+MONGO_URI=mongodb+srv://nikolajamina33:nikolaj0615@cluster0.gd70w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 🔹 The server will run on http://localhost:5001
 
 ### 📌 3. **Start the Frontend:**
